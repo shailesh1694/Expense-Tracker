@@ -1,0 +1,21 @@
+.NewExpense__control{
+ display: inline-block;
+ flex-wrap: wrap;
+ text-align: left;
+ gap: 1rem;
+ margin: 1rem;
+}
+.NewExpense__control label{
+  display: block; 
+  margin-bottom: .5rem;
+  
+}
+.NewExpense__control input {
+    border-radius: 6px;
+    width: 20rem;
+    max-width: 100%;
+}
+.NewExpense__Action{
+    text-align: right;
+    margin-bottom: 1rem;
+}

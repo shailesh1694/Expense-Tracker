@@ -1,0 +1,16 @@
+.new-expense{
+   
+         margin: 2rem auto;
+        width: 50rem;
+        background-color: lightskyblue;
+        text-align: center;
+        max-width: 95%;
+        padding: 1rem;
+       
+}
+.new-expense button{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+        margin-right: 2rem;
+}

@@ -1,0 +1,42 @@
+.ExpenseItem-Container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: darkkhaki;
+
+  padding: 0.5rem;
+  margin: 1rem 0;
+  
+    
+}
+
+.ExpenseItem-Description {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+
+  flex: 1;
+
+
+  padding: 2rem;
+  height: 3rem;
+}
+.ExpenseItem-Container h2 {
+  flex: 1;
+}
+
+.ExpenseItem-Price {
+  border: 2px solid whitesmoke;
+  background-color: blueviolet;
+  padding: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  width: 4rem;
+  text-align: center;
+}
+
